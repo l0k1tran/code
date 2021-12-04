@@ -69,11 +69,16 @@
         <div class="absolute z-10 xl:left-[1693px] xl:top-[878.04px]">
             <img src="/altamedia/wp-content/uploads/2021/11/18451-Converted-03-1.png" alt="">
         </div>
+        <div class="absolute xl:left-[1309px] xl:top-[333.48px] z-20">
+            <img src="http://localhost/altamedia/wp-content/uploads/2021/11/Group-1-1.png" alt="">
+        </div>
         <div>
             <img src="http://localhost/altamedia/wp-content/uploads/2021/11/Group.png" alt=""
                 class="absolute 2xl:w-[950px] 2xl:h-[600px] 2xl:left-[201px] 2xl: top-[356px] 2xl:bottom-[115px]">
-            <img src="http://localhost/altamedia/wp-content/uploads/2021/11/Vector.png" alt="">
-
+            <img src="http://localhost/altamedia/wp-content/uploads/2021/11/Vector.png" alt=""
+                class="absolute 2xl:left-[1108px] 2xl:w-[141.04px] 2xl:h-[583.79px] 2xl:top-[356.01px]">
+            <img src="http://localhost/altamedia/wp-content/uploads/2021/11/Group-2.png" alt=""
+                class="2xl:w-[539px] absolute 2xl:h-[599.75px] 2xl:top-[356.25px] 2xl:left-[1181px] z-10">
         </div>
 
     </div>
