@@ -78,7 +78,8 @@
     consectetur
     adipiscing elit.
 </p>
-<form action="" method="post" class=" absolute w-[467px] h-[374px] top-[443px] left-[1217px] z-10 ">
+<form action="http://localhost/altamedia/thanh-toan/" method="post"
+    class=" absolute w-[467px] h-[374px] top-[443px] left-[1217px] z-10 ">
     <select name="ticket_group" id="ticket-group" class="w-[398px] h-14  rounded-2xl shadow-se my-4 bg-[#FFFFFF] p-4">
         <option value="Gói gia đình">Gói gia đình</option>
         <option value="Gói trẻ em">Gói trẻ em</option>
@@ -89,7 +90,7 @@
     <img src="http://localhost/altamedia/wp-content/uploads/2021/11/Frame-2.png" alt=""
         class=" absolute left-[403px] w-[53px] h-14">
     <input type="text" name="ticket" placeholder="Số lượng vé"
-        class="w-[150px] h-14  shadow-se rounded-2xl bg-[#FFFFFF] p-4 items-center">
+        class="w-[150px] h-14  shadow-se rounded-2xl bg-[#FFFFFF] p-4 items-center" required>
     <input type="date" name="date" class="w-56 h-14 rounded-2xl shadow-se ml-5" placeholder="Ngày sử dụng">
 
     <input type="text" name="full_name"
@@ -101,7 +102,8 @@
     <input type="text" name="email" class="w-[467px] h-[66px] bg-[#FFFFFF] rounded-2xl shadow-se mt-4 items-center p-4"
         placeholder="Địa chỉ email" required>
     <button type="submit"
-        class="w-[368px] font-black text-[#FFFFFF] btn-submit bg-[#BD000B] text-2xl h-[68px] rounded-2xl mt-4 ml-10 relative text-center ">
+        class="w-[368px] font-black text-[#FFFFFF] btn-submit bg-[#BD000B] text-2xl h-[68px] rounded-2xl mt-4 ml-10 relative text-center"
+        name="book_tickets">
         <div class="absolute inset-x-0 h-full  border-gray-700 rounded-2xl -top-2 bg-[#FF000A]"></div>
         <div class="relative pb-4">Đặt vé</div>
     </button>
