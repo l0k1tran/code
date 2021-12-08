@@ -22,7 +22,7 @@
                     <ul
                         class="absolute z-20 top-7 w-full text-right sm:block lg:flex md:block justify-center item-center right-0 ">
                         <li><a href="/altamedia/">Trang chủ</a></li>
-                        <li><a href="#">Sự kiện</a></li>
+                        <li><a href="/altamedia/su-kien-noi-bat-2/">Sự kiện</a></li>
                         <li><a href="#">Liên hệ</a></li>
                         <li><a href="#">0123456789</a><img
                                 src="http://localhost/altamedia/wp-content/uploads/2021/11/Group-3.png" alt=""

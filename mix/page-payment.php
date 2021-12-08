@@ -84,37 +84,39 @@ $sql_client = mysqli_query($connect,"SELECT * FROM wp_clients Group by KH_ID DES
 <?php
         }
     ?>
-<p class="absolute z-10 left-[1250px] top-[374px] font-bold text-xl text-[#23221F] ">Số thẻ</p>
+<form action="http://localhost/altamedia/thanh-toan-thanh-cong/" method="post">
+    <p class="absolute z-10 left-[1250px] top-[374px] font-bold text-xl text-[#23221F] ">Số thẻ</p>
 
-<input type="text" name=""
-    class="shadow-se absolute z-10 left-[1250px] top-[412px] w-[411px] h-14 rounded-2xl outline-none px-4 py-5"
-    value="">
+    <input type="text" name=""
+        class="shadow-se absolute z-10 left-[1250px] top-[412px] w-[411px] h-14 rounded-2xl outline-none px-4 py-5"
+        value="">
 
-<p class="absolute z-10 left-[1250px] top-[484px] font-bold text-xl text-[#23221F]">Họ tên chủ thẻ</p>
+    <p class="absolute z-10 left-[1250px] top-[484px] font-bold text-xl text-[#23221F]">Họ tên chủ thẻ</p>
 
-<input type="text" name=""
-    class="shadow-se absolute z-10 left-[1250px] top-[522px] w-[411px] h-14 rounded-2xl outline-none px-4 py-5"
-    value="">
+    <input type="text" name=""
+        class="shadow-se absolute z-10 left-[1250px] top-[522px] w-[411px] h-14 rounded-2xl outline-none px-4 py-5"
+        value="">
 
-<p class="absolute z-10 left-[1250px] top-[594px] font-bold text-xl text-[#23221F]">Ngày hết hạn</p>
+    <p class="absolute z-10 left-[1250px] top-[594px] font-bold text-xl text-[#23221F]">Ngày hết hạn</p>
 
-<input type="date" name=""
-    class="shadow-se absolute z-10 left-[1250px] top-[632px] w-[342px] h-14 rounded-2xl outline-none px-4 py-5"
-    value="">
+    <input type="date" name=""
+        class="shadow-se absolute z-10 left-[1250px] top-[632px] w-[342px] h-14 rounded-2xl outline-none px-4 py-5"
+        value="">
 
-<img src="/altamedia/wp-content/uploads/2021/11/Frame-2.png" alt=""
-    class="absolute z-10 left-[1603px] top-[632px] w-[53] h-14">
+    <img src="/altamedia/wp-content/uploads/2021/11/Frame-2.png" alt=""
+        class="absolute z-10 left-[1603px] top-[632px] w-[53] h-14">
 
-<p class="absolute z-10 left-[1250px] top-[704px] font-bold text-xl text-[#23221F]">CVV/CVC</p>
+    <p class="absolute z-10 left-[1250px] top-[704px] font-bold text-xl text-[#23221F]">CVV/CVC</p>
 
-<input type="password" name="" placeholder="***"
-    class="shadow-se absolute z-10 left-[1250px] top-[742px] w-[113px] h-14 rounded-2xl outline-none px-4 py-5"
-    value="">
+    <input type="password" name="" placeholder="***"
+        class="shadow-se absolute z-10 left-[1250px] top-[742px] w-[113px] h-14 rounded-2xl outline-none px-4 py-5"
+        value="">
 
-<button type="submit"
-    class="btn-btn absolute w-[368px] h-[68px] left-[1268px] top-[822px] bg-[#FF000A] rounded-xl z-10 text-white font-black text-2xl">Thanh
-    toán</button>
-<button type="submit"
-    class="btn-btn absolute w-[368px] h-[68px] left-[1268px] top-[829px] bg-[#BD000B] rounded-xl z-0"></button>
+    <button type="submit"
+        class="btn-submit absolute w-[368px] h-[68px] left-[1268px] top-[822px] bg-[#FF000A] rounded-xl z-10 text-white font-black text-2xl">Thanh
+        toán</button>
+    <button type="submit"
+        class="btn-submit absolute w-[368px] h-[68px] left-[1268px] top-[829px] bg-[#BD000B] rounded-xl z-0"></button>
+</form>
 
 <?php get_footer();?>
